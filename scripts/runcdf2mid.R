@@ -5,7 +5,7 @@ suppressPackageStartupMessages(library(optparse))
 options_list<-list(
   make_option(c("--input","-i"),help="Input path"),
   make_option(c("--output","-o"),help="ouput full path name, directories and files will be created here"),
-  make_option(c("--cdfdir","-z"),help="zipfile containing .CDFs")
+  make_option(c("--cdfdir","-z"),help="directory containing .CDFs")
 )
 
 parser = OptionParser(option_list = options_list)
@@ -17,7 +17,7 @@ if(!("input" %in% names(opt)) || !("output" %in% names(opt)) ) {
   q(status = 1,save = "no")
 }
 
-library(ramid)
+library("cdf2mid")
 
 library(ncdf4) # library reading cdf
 

@@ -66,13 +66,13 @@ For advanced Docker usage:
 - Create container from dockerfile:
 
 ```
-docker build -t ramid:0.2 .
+docker build -t cdf2mid:0.1 .
 ```
 
 Alternatively, pull from repo:
 
 ```
-docker pull container-registry.phenomenal-h2020.eu/phnmnl/ramid
+docker pull container-registry.phenomenal-h2020.eu/phnmnl/cdf2mid
 ```
 
 ## Usage Instructions
@@ -82,29 +82,29 @@ On a PhenoMeNal Cloud Research Environment, go to Fluxomics tool category, and t
 - To run RaMID as a docker image created in the PhenoMeNal repository, execute
  
 ```
-docker run -it -v $PWD:/data container-registry.phenomenal-h2020.eu/phnmnl/ramid -i /data/ramidin.csv -o /data/ramidout.csv -z /data/wd.zip
+docker run -it -v $PWD:/data container-registry.phenomenal-h2020.eu/phnmnl/cdf2mid -i /data/ramidin.csv -o /data/ramidout.csv -z /data/wd.zip
 ```
 To run RaMID as a docker image created locally:
 
 - using an example of monopeak CDF files, execute
 
 ```
-docker run -it -v $PWD:/data ramid:0.2 -i /data/ramidin.csv -o /data/ramidout.csv -z /data/data/wd.zip
+docker run -it -v $PWD:/data cdf2mid:0.1 -i /data/metdata -o /data/cdf2midout.csv -z /data/wd
 ```
 - using an example of multipeaks CDF files, execute
  
 ```
-docker run -it -v $PWD:/data ramid:0.2 -i /data/cdf2midout.csv -o /data/ramidout.csv -z /data/data/roldan.zip
+docker run -it -v $PWD:/data cdf2mid:0.1 -i /data/cdf2midout.csv -o /data/ramidout.csv -z /data/data/roldan.zip
 ```
 - run test1 using the data that are in the file "ramidout.csv" in https://drive.google.com/drive/folders/0B1lAg6jyw6lvSlphUi1mdlUwUXM
  
 ```
-docker run -it --entrypoint=runTest1.sh ramid:0.2 
+docker run -it --entrypoint=runTest1.sh cdf2mid:0.1 
 ```
 - run test2 using the multipeak CDF files that are in the file "cdf2midout.csv" in https://drive.google.com/drive/folders/0B1lAg6jyw6lvSlphUi1mdlUwUXM
  
 ```
-docker run -it --entrypoint=runTest2.sh ramid:0.2 
+docker run -it --entrypoint=runTest2.sh cdf2mid:0.1
 ```
  
 ## Publications
