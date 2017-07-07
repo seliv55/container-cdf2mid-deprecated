@@ -13,7 +13,7 @@ LABEL documentation="https://github.com/phnmnl/container-cdf2mid/blob/master/REA
 LABEL license="https://github.com/phnmnl/container-cdf2mid/blob/develop/License.txt"
 LABEL tags="Metabolomics"
 
-ENV cdf2mid_REVISION "235635d73f2d473d6e03b0207d2c83a0402a0609"
+ENV cdf2mid_REVISION "87d6cc39bff894fe4f9cee2f21950463b401b4a0"
 
 # Setup package repos
 RUN apt-get -y update && apt-get -y --no-install-recommends install r-base-dev libssl-dev \
