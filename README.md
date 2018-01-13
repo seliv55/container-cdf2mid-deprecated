@@ -87,12 +87,12 @@ docker run -it -v $PWD:/data container-registry.phenomenal-h2020.eu/phnmnl/cdf2m
 - To run cdf2mid as a docker image created locally:
 
 ```
-docker run -it -v $PWD:/data cdf2mid:0.1 -i /data/metdata -o /data/cdf2midout.csv -z /data/wd
+docker run -it -v $PWD:/data cdf2mid:0.1 -i /data/metdata -o /data/cdf2midout.csv -z /data/roldan.zip
 ```
 - run test1 using the data that are in the folder "..." in https://drive.google.com/drive/folders/0B1lAg6jyw6lvSlphUi1mdlUwUXM
  
 ```
-docker run -it --entrypoint=runTest1.sh cdf2mid:0.1 
+docker run -it --entrypoint=runcdf2midTest1.sh cdf2mid:0.1 
 ```
  
 ## Publications
