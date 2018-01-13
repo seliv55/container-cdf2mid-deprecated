@@ -84,7 +84,7 @@ On a PhenoMeNal Cloud Research Environment, go to Fluxomics tool category, and t
 ```
 docker run -it -v $PWD:/data container-registry.phenomenal-h2020.eu/phnmnl/cdf2mid -i /data/metdata -o /data/cdf2midout.csv -z /data/wd
 ```
-- To run RaMID as a docker image created locally:
+- To run cdf2mid as a docker image created locally:
 
 ```
 docker run -it -v $PWD:/data cdf2mid:0.1 -i /data/metdata -o /data/cdf2midout.csv -z /data/wd

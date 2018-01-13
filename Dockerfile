@@ -30,7 +30,7 @@ ADD scripts/runcdf2mid.R /usr/bin/runcdf2mid.R
 RUN chmod +x /usr/bin/runcdf2mid.R
 
 # Add test scripts
-ADD runTest1.sh /usr/local/bin/runTest1.sh
-RUN chmod a+x /usr/local/bin/runTest1.sh
+ADD runcdf2midTest1.sh /usr/local/bin/runcdf2midTest1.sh
+RUN chmod a+x /usr/local/bin/runcdf2midTest1.sh
 # Define Entry point script
 ENTRYPOINT ["runcdf2mid.R"]
