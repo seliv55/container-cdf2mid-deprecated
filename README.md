@@ -3,7 +3,7 @@ R-program to read CDF files containing time course of mass spectra of 13C-labele
 
 ![Logo](figs/logo.png)
 
-# RaMID
+# cdf2mid
 Version: 1.0
 
 ## Short description
