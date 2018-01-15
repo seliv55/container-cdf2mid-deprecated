@@ -23,5 +23,5 @@ library(ncdf4) # library reading cdf   inFile=opt$input,
 
 source(opt$input)
 
-metan( outfile=opt$output, cdfzip=opt$cdfdir)
+metan( outfile=opt$output, cdfdir=opt$cdfdir)
 
