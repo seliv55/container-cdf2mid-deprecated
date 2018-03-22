@@ -1,0 +1,2 @@
+which runsmid.R
+which Rscript
