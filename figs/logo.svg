@@ -17,7 +17,7 @@
    height="145.84158"
    viewBox="0 0 141.68317 145.84158"
    sodipodi:docname="logo.svg"
-   inkscape:export-filename="/home/vs/phenomen/container-simid/figs/logo.png"
+   inkscape:export-filename="/home/vs/phenomen/container-cdf2mid/figs/logo.png"
    inkscape:export-xdpi="200"
    inkscape:export-ydpi="200">
   <metadata
@@ -28,7 +28,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -447,7 +447,7 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="2.58"
-     inkscape:cx="103.85627"
+     inkscape:cx="38.158596"
      inkscape:cy="111.02047"
      inkscape:window-x="371"
      inkscape:window-y="227"
@@ -966,8 +966,8 @@
        style="font-size:7.5px">Metabolights</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-     x="25.659683"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="13.659683"
      y="69.341888"
      id="text6927-27"
      sodipodi:linespacing="125%"
@@ -975,9 +975,9 @@
      inkscape:export-ydpi="200"><tspan
        sodipodi:role="line"
        id="tspan6929-0"
-       x="25.659683"
+       x="13.659683"
        y="69.341888"
-       style="font-size:7.5px;fill:#800000;">simid</tspan></text>
+       style="font-size:7.5px;fill:#800000">cdf2mid</tspan></text>
   <image
      y="47.865337"
      x="150.6734"
