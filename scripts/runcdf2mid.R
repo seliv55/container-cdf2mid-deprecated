@@ -17,9 +17,11 @@ if(!("input" %in% names(opt)) || !("output" %in% names(opt)) ) {
   q(status = 1,save = "no")
 }
 
-library("simid")
+library("cdf2mid")
 
-library(ncdf4)
+library(ncdf4) # library reading cdf   inFile=opt$input,
 
-metan(infile=opt$input, cdfdir=opt$cdfdir, outdir=opt$output)
+source(opt$input)
+
+metan( outfile=opt$output, cdfdir=opt$cdfdir)
 

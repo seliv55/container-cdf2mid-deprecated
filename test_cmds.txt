@@ -1,2 +1,2 @@
-which runsmid.R
+which runsdf2mid.R
 which Rscript
